@@ -33,3 +33,15 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+
+class Hello(models.Model):
+    "Generated Model"
+    test = models.BigIntegerField()
+
+
+class Student(models.Model):
+    "Generated Model"
+    name = models.CharField(
+        max_length=256,
+    )

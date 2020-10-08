@@ -35,7 +35,12 @@ class HomePage(models.Model):
         return "body"
 
 
-class Student(models.Model):
+class Demo(models.Model):
+    "Generated Model"
+    titlessdf = models.BigIntegerField()
+
+
+class Crowdbotic(models.Model):
     "Generated Model"
     name = models.CharField(
         max_length=256,

@@ -35,11 +35,6 @@ class HomePage(models.Model):
         return "body"
 
 
-class Hello(models.Model):
-    "Generated Model"
-    test = models.BigIntegerField()
-
-
 class Student(models.Model):
     "Generated Model"
     name = models.CharField(

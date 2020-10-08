@@ -1,6 +1,6 @@
 from django.views.generic import CreateView, UpdateView, DetailView, ListView
 from django.shortcuts import render
-from .models import CustomText, Hello, HomePage, Student
+from .models import CustomText, HomePage
 
 # Create your views here.
 
